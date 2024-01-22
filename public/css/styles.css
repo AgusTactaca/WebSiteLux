@@ -9,12 +9,13 @@
 body {
     background-color: #ebebeb;
     width: 100%;
+    font-size: 12px;
 }
 
 /* HEADER */
 
 header {
-    background-color: rgb(255, 255, 0);
+    background-color: #EAC926;
 }
 
 ul {
@@ -41,7 +42,7 @@ img {
 }
 
 .burger-menu {
-    background-color: #001aff;
+    background-color: #03264C;
     padding: 10px;
     border-radius: 5px;
 }
@@ -50,6 +51,10 @@ img {
     color: white;
     font-size: 30px;
     cursor: pointer;
+}
+
+.banner{
+    background-color: #ebebeb;;
 }
 
 /* MAIN */
@@ -61,8 +66,9 @@ main {
 
 h2 {
     display: flex;
+    font-size: 24px;
     justify-content: center;
-    padding: 10px 0px 10px 0px;
+    padding: 20px 0px 10px 0px;
 }
 
 .box {
@@ -89,7 +95,7 @@ h2 {
 }
 
 .descuentos {
-    color: green;
+    color: #39b54a;
 }
 
 .info {
@@ -97,7 +103,7 @@ h2 {
 }
 
 .detalle i {
-    color: rgb(0, 189, 0);
+    color: #39b54a;
     width: 20px;
     height: 18px;
     border-radius: 50%;
@@ -113,10 +119,13 @@ h2 {
 
 .precios {
     flex-basis: 30%;
+    font-size: 18px;
 }
 
 .descuentos {
     flex-basis: 70%;
+    font-size: 16px;
+    padding-top: 2px;
 }
 
 .detalle>.product-delivery-icon {
@@ -143,6 +152,7 @@ h2 {
 
 .titulo h3 {
     margin-top: 10px;
+    font-size: 16px;
 }
 
 
@@ -319,21 +329,16 @@ h2 {
         justify-content: space-around;
         align-items: center;
         background-color: #f5f5f5;
-        /* Color de fondo del footer */
         padding: 10px;
-        /* Ajusta según sea necesario */
     }
 
     .footer-icon {
         color: #333;
-        /* Color inicial de los íconos */
         transition: color 0.3s;
-        /* Transición de color al pasar el mouse */
     }
 
     .footer-icon:hover {
         color: #007bff;
-        /* Nuevo color al pasar el mouse */
     }
 
 }
@@ -422,20 +427,16 @@ h2 {
         justify-content: space-around;
         align-items: center;
         background-color: #f5f5f5;
-        /* Color de fondo del footer */
         padding: 10px;
-        /* Ajusta según sea necesario */
     }
 
     .footer-icon {
+        width: 18%;
         color: #333;
-        /* Color inicial de los íconos */
         transition: color 0.3s;
-        /* Transición de color al pasar el mouse */
     }
 
     .footer-icon:hover {
         color: #007bff;
-        /* Nuevo color al pasar el mouse */
     }
 }
