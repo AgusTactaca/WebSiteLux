@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <main>
+        <h2>Registro de Usuario</h2>
+        <br>
+        <div class="contacto">
+            <p><strong>Regístrese</strong></p>
+            <p>Ingresa tus datos para crear tu cuenta</p>
+        </div>
+        <br>
+
+        <form action="/" method="post" class="form-register">
+            <div>
+                <!-- Nombre y Apellido -->
+                <div>
+                    <input type="text" name="nombre" required placeholder="Nombre y apellido">
+                    <input type="text" name="usuario" required placeholder="Nombre de usuari@">
+                </div>
+
+                <!-- Correo Electrónico -->
+                <div>
+                    <input type="email" name="email" required placeholder="Correo electrónico">
+                </div>
+
+                <!-- Fecha de Nacimiento -->
+                <div>
+                    <label for="fechaNacimiento"><strong>Fecha de Nacimiento</strong></label>
+                </div>
+                <div>
+                    <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+                </div>
+
+                <!-- Domicilio -->
+                <div>
+                    <input type="text" name="domicilio" required placeholder="Domicilio">
+                </div>
+
+                <!-- Perfil del Usuario -->
+                <div>
+                    <label for="fechaNacimiento"><strong>Perfil del usuario</strong></label>
+                </div>
+                <div>
+                    <select id="perfil" name="perfil">
+                        <option value="comprar">Comprar</option>
+                        <option value="vender">Vender</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Categorías de Interés:</label>
+                </div>
+
+                <div>
+                    <label for="electro">Electro</label>
+                    <input type="checkbox" id="electro" name="categorias[]" value="Electro">
+                </div>
+
+
+                <div>
+                    <label for="moda">Moda</label>
+                    <input type="checkbox" id="moda" name="categorias[]" value="Moda">
+                </div>
+                <div>
+                    <label for="hogar">Hogar</label>
+                    <input type="checkbox" id="hogar" name="categorias[]" value="Hogar">
+                </div>
+                <div>
+                    <label for="jugueteria">Juguetería</label>
+                    <input type="checkbox" id="jugueteria" name="categorias[]" value="Juguetería">
+                </div>
+                <div>
+                    <label for="vidaSana">Vida Sana</label>
+                    <input type="checkbox" id="vidaSana" name="categorias[]" value="Vida Sana">
+                </div>
+                <div>
+                    <label for="foto">Foto de Usuario:</label>
+                    <input type="file" id="foto" name="foto">
+                </div>
+                <div>
+                    <input type="password" id="password" name="password" required placeholder="Contraseña">
+                </div>
+                <div>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required
+                        placeholder="Confirmar Contraseña">
+                </div>
+                <div class="form-register">
+                    <button type="submit" href="/home">Enviar</button>
+                    <button type="reset">Borrar Datos</button>
+                </div>
+
+                <!-- Iniciar Sesión -->
+                <div name="agree">¿Ya tienes cuenta? Inicia sesión <a href="/login">aquí</a></div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
