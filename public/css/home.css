@@ -55,10 +55,6 @@ img {
     cursor: pointer;
 }
 
-.banner{
-    background-color: #ebebeb;;
-}
-
 /* MAIN */
 
 main {
@@ -84,6 +80,7 @@ h2 {
     margin: 15px;
     border: 1px solid #ebebeb;
     overflow: hidden;
+    background-color: white;
 }
 
 .detalle {
@@ -91,7 +88,7 @@ h2 {
     padding-bottom: 10px;
     border-top: 1px solid #ebebeb;
     background-color: white;
-    padding-left: 15px;
+    /* padding-left: 15px; */
     padding-top: 15px;
     position: relative;
 }
@@ -246,13 +243,7 @@ h2 {
 @media screen and (min-width: 361px) {
     .navbar {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .site {
-        display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
 
@@ -260,7 +251,7 @@ h2 {
         display: flex;
         padding-top: 20px;
         padding-bottom: 20px;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
 
@@ -349,7 +340,7 @@ h2 {
 @media screen and (min-width: 769px) {
     .navbar {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-around; /* Cambio temporal de around a between */
         align-items: center;
     }
 
@@ -397,7 +388,6 @@ h2 {
 
     .articulo {
         width: calc(25% - 30px);
-        margin: 15px;
         /* Cuatro artículos por fila en desktop */
     }
 

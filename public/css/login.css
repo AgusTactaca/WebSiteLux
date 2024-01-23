@@ -177,13 +177,7 @@ main {
 @media screen and (min-width: 361px) {
     .navbar {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .site {
-        display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
 
@@ -191,7 +185,7 @@ main {
         display: flex;
         padding-top: 20px;
         padding-bottom: 20px;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
 
