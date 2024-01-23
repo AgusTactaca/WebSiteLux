@@ -20,6 +20,8 @@ header {
 
 ul {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .sub {
@@ -103,8 +105,8 @@ body {
     font-size: 16px;
 }
 
-.main {
-    padding: 20px;
+main {
+    padding: 20px 0px 50px 0px;
 }
 
 .form-register button {
@@ -165,46 +167,6 @@ button:hover {
 
 .form-register input[name="domicilio"] {
     width: 100%;
-}
-
-
-/* Ajustes para tamaños de pantalla más pequeños (tablets y celulares) */
-@media screen and (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .menu {
-        margin-top: 10px;
-        order: 2;
-    }
-
-    .menu li {
-        margin-bottom: 10px;
-    }
-
-    /* Agrego márgenes */
-    .menu a {
-        margin-bottom: 5px;
-    }
-
-    .logo {
-        order: 1;
-        /* Cambio el oreden*/
-    }
-
-    .logo img {
-        max-width: 400px;
-    }
-
-    .form-register {
-        max-width: 100%;
-    }
-
-    .form-register input {
-        width: 100%;
-    }
 }
 
 /* FOOTER */
