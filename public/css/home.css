@@ -176,6 +176,11 @@ h2 {
     text-align: center;
 }
 
+#map {
+    height: 400px;  /* Altura del mapa */
+    width: 100%;    /* Ancho del mapa */
+}
+
 .footer i {
     font-size: 2em;
     margin-bottom: 10px;
