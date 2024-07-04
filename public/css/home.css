@@ -190,7 +190,7 @@ h2 {
 /* RESPONSIVIDAD */
 
 /* MOBILE */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 405px) {
     .navbar {
         display: flex;
         flex-wrap: wrap;
@@ -260,7 +260,7 @@ h2 {
 }
 
 /* TABLET */
-@media screen and (min-width: 361px) {
+@media screen and (min-width: 406px) {
     .navbar {
         display: flex;
         justify-content: space-around;
